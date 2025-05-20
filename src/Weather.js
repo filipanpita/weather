@@ -68,7 +68,10 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast coordinates={weatherData.coordinates} city={weatherData.city}/>
+        <WeatherForecast
+          coordinates={weatherData.coordinates}
+          city={weatherData.city}
+        />
         <footer>
           This project was coded by Filipa Pita and is{" "}
           <a
@@ -80,7 +83,7 @@ export default function Weather(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://shecodesweather.netlify.app/"
+            href="https://shecodesreactapp-weather.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
